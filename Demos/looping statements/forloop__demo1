@@ -1,0 +1,3 @@
+n=7
+for val in range(7, 71,1):
+    print(val)
