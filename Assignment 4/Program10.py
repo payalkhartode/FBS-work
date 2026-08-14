@@ -1,0 +1,13 @@
+##10 WAP to check if given number is Perfect Number.
+
+num = int(input("Enter the number: "))
+sum = 0
+for i in range(1, num):
+    if (num % i == 0):
+        sum = sum + i
+        
+if (sum == num):
+    print(f"{num} is a Perfect Number.")       # A number is "perfect" if it equals the sum of its own divisors (excluding itself).
+else:
+    print(f"{num} is not a Perfect Number.")
+
